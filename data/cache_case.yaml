@@ -1,0 +1,9 @@
+clear_cache_cases:
+  - case_id: cache_001
+    title: 清理全部缓存
+    cache_type: "all"
+    expect_msg: "缓存清理完成"
+  - case_id: cache_002
+    title: 仅清理图片缓存
+    cache_type: "image"
+    expect_msg: "缓存清理完成"

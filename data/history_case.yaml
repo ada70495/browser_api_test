@@ -1,0 +1,7 @@
+add_history_cases:
+  - case_id: history_001
+    title: 正常新增B站浏览记录
+    title: 哔哩哔哩
+    url: https://www.bilibili.com
+    visit_time: "2026-07-22 12:00:00"
+    expect_msg: "记录保存成功"

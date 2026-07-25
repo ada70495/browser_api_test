@@ -1,0 +1,20 @@
+login_cases:
+  - case_id: login_001
+    title: 正常账号密码登录成功
+    username: test01
+    password: 123456
+    expect_code: 200
+    expect_msg: 登录成功
+    expect_token_exist: true
+  - case_id: login_002
+    title: 密码错误登录失败
+    username: test01
+    password: 666666
+    expect_code: 200
+    expect_msg: 密码错误
+  - case_id: login_003
+    title: 用户名为空，参数校验失败
+    username: ""
+    password: 123456
+    expect_code: 400
+    expect_msg: 用户名不能为空

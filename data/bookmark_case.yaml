@@ -1,0 +1,11 @@
+add_bookmark_cases:
+  - case_id: bookmark_001
+    title: 正常新增百度网页收藏
+    title_name: 百度搜索
+    url: https://www.baidu.com
+    expect_msg: 收藏添加成功
+  - case_id: bookmark_002
+    title: URL为空，新增收藏失败
+    title_name: 空链接
+    url: ""
+    expect_msg: 链接地址不能为空

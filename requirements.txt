@@ -1,0 +1,18 @@
+# 网络请求库
+requests==2.31.0
+# yaml文件解析读写
+pyyaml==6.0.1
+# 测试运行框架
+pytest==7.4.4
+# allure可视化测试报告
+allure-pytest==2.13.2
+# jsonpath提取返回json字段
+jsonpath-python==1.0.6
+# 高性能日志组件
+loguru==0.7.2
+# 读取本地.env环境变量，存放账号密钥
+python-dotenv==1.0.0
+# 编码识别工具
+chardet==5.2.0
+# 测试代码覆盖率统计
+pytest-cov==4.1.0
